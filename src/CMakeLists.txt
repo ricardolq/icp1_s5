@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Set the project name
-project(CallbackProject LANGUAGES C)
+project(MyCProject LANGUAGES C)
 
-# Add the executable
-add_executable(callback callback.c)
+# Add subdirectories
+add_subdirectory(callback)
+add_subdirectory(basicstruct)

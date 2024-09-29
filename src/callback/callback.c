@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef int (*comparator)(int, int);
+
 void print_array(char *msg, int *array, int n)
 {
     printf("%s\n", msg);
@@ -10,7 +12,7 @@ void print_array(char *msg, int *array, int n)
     printf("\n");
 }
 
-void insertion_sort(int *array, int n, int comparison(int, int))
+void insertion_sort(int *array, int n, comparator comparison)
 {
     int i, j, key;
     for(j=1; j<=n-1;j++)
