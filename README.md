@@ -22,6 +22,10 @@ Inside this folder:
 - callback is an example of using function as parameters
 - basicstruct is a basic example of how to declare a struct
 - basicunion is a basic example of how to declare an union
+- pointerstruct is a basic example of pointer to struct
+- pointerunion is a basic example of pointer to union
+- swap is an example of parameters by reference
+- dynamicmemory contains examples of how to allocate, reallocate and free memory
 
 ## Contributing
 
