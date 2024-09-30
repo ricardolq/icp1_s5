@@ -20,6 +20,8 @@ The repository has the following folder structure:
 Inside this folder:
 
 - callback is an example of using function as parameters
+- basicstruct is a basic example of how to declare a struct
+- basicunion is a basic example of how to declare an union
 
 ## Contributing
 

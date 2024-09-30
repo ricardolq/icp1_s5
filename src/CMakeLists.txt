@@ -6,3 +6,4 @@ project(MyCProject LANGUAGES C)
 # Add subdirectories
 add_subdirectory(callback)
 add_subdirectory(basicstruct)
+add_subdirectory(basicunion)
